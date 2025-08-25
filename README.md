@@ -7,4 +7,10 @@
  
     ( use 2 only, in some cases refer 1)
 
-- 
+- Objects and web events are very much or most important ones
+
+- Dynamically typed or statically typed language ?  
+Yes ✅ JavaScript is a dynamically typed language.
+    You don’t declare the type of a variable (like int, string, bool).
+    The type is decided at runtime, depending on the value you assign.
+    A variable can hold values of different types at different times.
