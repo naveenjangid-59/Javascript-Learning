@@ -74,3 +74,16 @@ Return type of variables in JavaScript
 
 // let bigNumber = 1234567890123456789012345678901234567890n
 // console.log(typeof bigNumber); // bigint
+
+
+
+
+
+// stack memory vs heap memory
+// primitive data types are stored in stack memory
+// non-primitive data types are stored in heap memory
+// stack memory is faster than heap memory
+// stack memory is used for static memory allocation
+// heap memory is used for dynamic memory allocation
+
+// REFER README FOR MORE DIAGRAM
