@@ -1,5 +1,3 @@
-// total 5 ways
-
 const accountId = 893056;
 let accountEmail = "naveen@gmail.com"
 var accountPassword = "12345"
