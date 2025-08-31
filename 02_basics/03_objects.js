@@ -78,6 +78,7 @@ const jsUser3 = {
     age: 22,    
     greet : function(){
         console.log("Hello User3");
+        // return 1
     }
 }
 
