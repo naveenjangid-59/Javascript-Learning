@@ -25,3 +25,14 @@ Yes ✅ JavaScript is a dynamically typed language.
 
 -  Variables in JS are Very Powerfull, they can hold so much things
 
+-  ES6 in 2015, with lot of new features ( `one of them is arrow function` )
+
+
+-  ### IMPORTANT
+    - RUN console.log(this) in browser console and node environment
+    - MOst Global object in browser -- WINDOW OBJECT
+    - MOst global object in node environment -- {} empty object
+
+    - If you use this in a standalone function, in strict mode it is undefined, in non-strict mode it is widnow object
+
+    - Arrow functions differ in their handling of this: they inherit this from the parent scope at the time they are defined. This behavior makes arrow functions particularly useful for callbacks and preserving context
