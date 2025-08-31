@@ -22,3 +22,6 @@ Yes ✅ JavaScript is a dynamically typed language.
     -  stack se copy create hoti hai & heap se referece
     - ![Alt text](images/stack_heap_diagram.png)
 
+
+-  Variables in JS are Very Powerfull, they can hold so much things
+
