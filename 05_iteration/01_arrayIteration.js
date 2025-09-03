@@ -1,15 +1,44 @@
 // for-in  for-of
 let myArr = [10, 20, 30, 40, 50];
+// for-of loop : array string maps 
+// for-in loop : best for iterate over Objects 
 
-// forof loop
-    // used for iterating over iterable objects (arrays, strings, maps, sets, etc.)
-    // doesn't work with objects
 
-for (const [idx,val] in myArr) {
-    console.log(idx , elem);
+
+
+// forEach loop : 
+// callback function ka naam nahi hota
+// 1.
+const coding = ["js", "ruby", "java", "python", "срр"]
+coding.forEach((item)=>{
+    console.log(item);
+})
+// 2.
+coding.forEach(function (item){
+    console.log(item);
+})
+//3.
+function printMe(item){
+    console.log(item);
 }
+coding.forEach(printMe)
 
-// forin loop
-    // used for iterating over enumerable properties of an object
-    // works with objects
-    // enumerates means it gives the keys of the object
+
+
+// what parameters does a forEach have : item index arr(full array access)
+coding.forEach((item, index, arr)=>{
+    console.log(item, index, arr);
+})
+
+// for each doesn't return anything
+const values = coding.forEach((item) => {
+    console.log(item);
+    return item
+})
+console.log(values)  // doesn't return anything : Gives undefined
+
+
+
+
+
+
