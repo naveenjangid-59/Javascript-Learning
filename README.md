@@ -71,3 +71,42 @@ Yes ✅ JavaScript is a dynamically typed language.
 - Manuplating Style : 
     - `element.style.backgroudColor` = ""
 
+- Parent -> children : 
+    -  `parent.children` : returns HTML collection 
+    - `parent.firstElementChild` 
+    - `parent.lastElementChild`
+    - nth child
+        - // Select the 3rd child directly
+        - `const thirdChild = document.querySelector(".container :nth-child(3)");`
+        - `console.log(thirdChild);`
+
+        - OR
+
+        - `parent.children[n]`
+
+- child -> parent :
+    - `child.parentElement`
+
+- sibling
+    - `element.nextElementSibling`
+    - `previousElementSibling`
+
+- Nodes : 
+    - `parent.childNodes()` : counts spaces + elements + comments all as Nodes, counts all of them 
+
+
+- Create a New Element and Append in DOM Tree 
+    - `let div = document.createElement()`  -- creates a elment
+    - `let text = document.createTextNode()` -- `div.appendChild(div)`
+
+    - OR
+
+    - Just use attributes of div and do modifications
+
+
+- Edit Elements : 
+    - `replaceWith` -- replace a element with a new
+    - `outerHTML`
+
+- Remove Elements : 
+
