@@ -45,6 +45,29 @@ Yes ✅ JavaScript is a dynamically typed language.
     - ![code execution](images/img1.jpeg)
     
 
+- ## DOM Structure
+    - ![dom structure](images/DOM_structure.png)
 
 
+- HTML collection , Array , Node List/ collection all are different things
+
+- Accessing Elements : 
+    - `getElementById()`
+    - `getElementByClassName()` -Returns HTML collecion
+    - `getElementByTagName()`
+
+    - `querySelector()`
+    - `querySelectorAll()`  : Returns NodeList Array.from() converts to array
+
+- `getAttribute()` / `setAttribute()` : setAttribute overwrite always
+
+- Updating/Accessing the content :
+    - `innerHTML()` : descendants
+    - `outerHTML()` : descendants + self
+    - `innerText()`   : shows text that is visible actually [ trigger properties ]
+    - `textContent()`: shows text that is hidden by some css properties like `display: none`
+
+
+- Manuplating Style : 
+    - `element.style.backgroudColor` = ""
 
